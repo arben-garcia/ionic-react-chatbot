@@ -1,0 +1,7 @@
+{
+  "name": "tpb-react-chatbot",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
