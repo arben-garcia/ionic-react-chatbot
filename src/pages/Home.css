@@ -1,0 +1,19 @@
+h2 {
+    color: #0048B3;
+  }
+
+  .placeholder-section {
+    padding: 20px;
+    background-color: #f7f7f7;
+    height: 500px;
+  }
+  
+  ion-button[slot='fixed'] {
+    top: 20%;
+    right: 20px;
+  }
+
+  .chatbot-button {
+    --border-radius: 15px;
+    --background: #fff;
+}

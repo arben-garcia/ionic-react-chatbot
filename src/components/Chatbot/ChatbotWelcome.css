@@ -1,0 +1,38 @@
+
+.chatbot-page {
+    align-items: center;
+}
+
+.chatbot-title ion-icon {
+    padding-top: 3px;
+    padding-right: 10px;
+    color: #0851b0;
+}
+
+.chatbot-title ion-col {    
+    text-align: center;
+}
+
+.chatbot-title h2 {
+    font-family: 'barabara'; 
+    font-size: xx-large;
+    color: #0851b0;
+    margin-top: 0;
+}
+
+.chatbot-title ion-button {
+    text-transform: none;
+    --background: #0851b0;
+}
+
+.chatbot-page ion-img {
+    width: 262px;
+    margin: auto;
+    display: block;
+}
+
+.poppins-regular {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: x-large;
+    text-align: center;
+}

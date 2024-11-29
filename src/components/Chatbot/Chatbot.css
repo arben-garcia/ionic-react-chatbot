@@ -1,0 +1,102 @@
+.chat-recommendations {
+  background-color: #d4ddec;
+}
+
+.chat-recommendations ion-row {
+  justify-content: center;
+}
+
+.chat-recommendations .message {
+  color: #444;
+  padding: 15px 15px;
+  line-height: 15px;
+  font-size: 16px;
+  border-radius: 25px;
+}
+
+.chat-recommendations ion-button {
+  text-align: center;
+  justify-self: center;
+  min-width: 300px;
+}
+
+.chatbot-page ion-img {
+  padding: 20px 0;
+}
+
+.chat-history {
+  background-color: #d4ddec;
+  padding-bottom: 6vmax;
+}
+
+.chat-history ion-row {
+  padding: 0
+}
+
+.chat-history ion-row ion-col {
+  list-style: none;
+  margin-bottom: 30px
+}
+
+.chat-history ion-row ion-col:last-child {
+  margin-bottom: 0px
+}
+
+.chat-history .message {
+  color: #444;
+  font-family: 'Poppins', sans-serif !important;
+  padding: 15px 15px;
+  line-height: 26px;
+  font-size: 16px;
+  border-radius: 25px;
+  display: inline-block;
+  position: relative;
+  width: fit-content;
+  max-width: 80%;
+}
+
+.chat-history .chatbot-message {
+  background: #fff;
+}
+
+.chat-history .chatbot-message  p:first-of-type{
+  margin-top: 0;
+}
+
+.chat-history .chatbot-message  p:last-of-type{
+  margin-bottom: 0;
+}
+
+.chat-history .user-message {
+  background: #0851b0;
+  color: #fff;
+  text-align: right
+}
+
+.chat .chat-message {
+  padding: 20px
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0
+}
+
+.chat .messagebox {
+  display: flex;
+  align-items: flex-end;
+  margin: auto; 
+  padding-top: .5em;
+  padding-bottom: .5em;
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+}
+
+ion-input {
+  --background: #fff;
+}
